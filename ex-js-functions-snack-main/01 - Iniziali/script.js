@@ -3,11 +3,14 @@
 const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 console.log(names);
 
-const firstLetters = [];
-
+const firstLetter = [];
 // Dichiara la funzione qui.
-const initialLetter = (letter) => {};
+
+for (let i = 0; i == names[i]; i++) {
+  const firstLetter = (Letter) => {
+    return Letter[0];
+  };
+}
 
 // Invoca la funzione qui e stampa il risultato in console
-
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
