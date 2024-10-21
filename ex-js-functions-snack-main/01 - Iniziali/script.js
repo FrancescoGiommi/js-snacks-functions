@@ -3,14 +3,14 @@
 const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 console.log(names);
 
-const firstLetter = [];
-// Dichiara la funzione qui.
-
-for (let i = 0; i == names[i]; i++) {
-  const firstLetter = (Letter) => {
-    return Letter[0];
-  };
-}
+const extractFirstLetter = (array) => {
+  const firstLetter = [];
+  for (let i = 0; i < array.lenght; i++) {
+    firstLetter = [names[i]];
+  }
+  return firstLetter;
+};
+console.log(extractFirstLetter(names));
 
 // Invoca la funzione qui e stampa il risultato in console
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
